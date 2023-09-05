@@ -42,8 +42,8 @@ function App() {
 
 
     {Object.keys(cep).length > 0 &&(<main className="main">
-      <h2> Cep : {cep.cep} </h2>
-      <span> Rua : {cep.logradouro} </span> 
+      <h2> Cep aaaa : {cep.cep} </h2>
+      <span> Rua aaa: {cep.logradouro} </span> 
       <span> Bairro : {cep.bairro} </span> 
       <span> Estado : {cep.uf} </span> 
     </main>)}
